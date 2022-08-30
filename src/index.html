@@ -16,27 +16,28 @@
 
         <div id="container_username">
           <input type="text" class="username" placeholder="Name" />
-          <button type="button" id="button_username">Send</button>
+          <img type="button" src="./assets/send.png" id="button_username"/>
         </div>
       </div>
 
       <div class="box-numbers">
         <img class='img-chip' src="./assets/chip.png" alt="chip" />
+        
         <input
           type="text"
-          id="cardNumber"
+          class="cardNumber"
           placeholder="xxxx xxxx xxxx 1234"
           maxlength="16"
           required
         />
-        <button type="button" id="button_send">Validate</button><br />
+        <img class='img-send' src="./assets/send.png" alt="send" /><br />
         <h3 id="user_name"></h3>
         <div class="valid-mask">
           <label id="validation"></label>
           <label id="maskify"></label>
          
         </div>
-         <img class="img-mastercard" src="./assets/mastercard.jpg" alt="mastercard" />
+         <img class="img-mastercard" src="./assets/mastercard.png" alt="mastercard" />
       </div>
     </main>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

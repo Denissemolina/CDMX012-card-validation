@@ -36,9 +36,8 @@
   background-color: none;
 }
 #button_username {
-  background-color: #4d3aaa;
-  color: #ffe9ff;
-  border-radius: 5px;
+  width: 36px;
+  height: 34px;
 }
 .valid-mask {
   display: flex;
@@ -49,7 +48,7 @@
   font-weight: bold;
   background: #b3abe9;
   border-radius: 10px;
-  border-color: #a49be0;
+
   border-style: outset;
   cursor: pointer;
 }
@@ -73,30 +72,36 @@
     rgba(79, 156, 200, 1) 50%,
     rgba(131, 110, 214, 1) 100%
   );
-  width: 450px;
-  height: 180px;
+  width: 500px;
+  height: 220px;
   border-radius: 30px;
-  padding: 30px;
+
 }
-.img-chip{
-  width: 55px;
-  height: 51px;
+.img-chip {
+  width: 50px;
+  height: 48px;
+  background: none;
+  margin-left: -110px;
+  margin-top: 12px;
+}
+.img-send {
+  width: 31px;
+  height: 28px;
   background: none;
 }
-/* .box-numbers :hover {
+.cardNumber :hover {
   border: 1px solid #3c3c44;
-} */
-#cardNumber {
+}
+.cardNumber {
   font-size: 23px;
   border: none;
-
   background: transparent;
   border-color: none;
 }
 .img-mastercard {
   width: 65px;
   height: 40px;
-
-  background: rgba(131, 110, 214, 1);
-  
+  background: none;
+  margin-top: 100px;
+  margin-left: 390px;
 }
