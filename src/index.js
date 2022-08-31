@@ -1,6 +1,6 @@
 import validator from "./validator.js";
 
-const buttonSend = document.getElementById("button_send");
+const buttonSend = document.getElementById("button-send");
 buttonSend.addEventListener("click", getNumber);
 
 function getNumber() {

@@ -48,15 +48,20 @@
   font-weight: bold;
   background: #b3abe9;
   border-radius: 10px;
-
   border-style: outset;
   cursor: pointer;
 }
 .valid {
   color: #4adb82;
+  border: none;
+  background: transparent;
+  border-color: none;
 }
 .invalid {
   color: #f56c72;
+  border: none;
+  background: transparent;
+  border-color: none;
 }
 .box-numbers {
   font-size: 25px;
@@ -75,7 +80,6 @@
   width: 500px;
   height: 220px;
   border-radius: 30px;
-
 }
 .img-chip {
   width: 50px;
@@ -89,10 +93,10 @@
   height: 28px;
   background: none;
 }
-.cardNumber :hover {
+#cardNumber :hover {
   border: 1px solid #3c3c44;
 }
-.cardNumber {
+#cardNumber {
   font-size: 23px;
   border: none;
   background: transparent;
