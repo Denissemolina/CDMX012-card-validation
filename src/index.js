@@ -12,15 +12,15 @@ function getNumber() {
   if (validation === true) {
     validAlert.innerHTML = "Valid card";
     validAlert.classList.add("valid");
-    document.getElementById("maskifys").innerHTML = maskify;
+    document.getElementById("cover-numbers").innerHTML = maskify;
   } else {
     validAlert.innerHTML = "Invalid card";
     validAlert.classList.add("invalid");
-    document.getElementById("maskifys").innerHTML = maskify;
+    document.getElementById("cover-numbers").innerHTML = maskify;
   }
 
-  document.getElementById("cardNumber").innerHTML =
-    validator.maskify(boxNumbers);
+  // document.getElementById("cardNumber").innerHTML =
+  //   validator.maskify(boxNumbers);
 }
 
 const userNameImpress = document.getElementById("user_name");

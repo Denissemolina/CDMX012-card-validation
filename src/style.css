@@ -1,6 +1,6 @@
 * {
   font-family: "lato", sans-serif;
-  background: #1d2028;
+  /* background: #1d2028; */
   margin: 0%;
 }
 .container_main {
@@ -8,7 +8,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
 }
-#container_aside {
+.container_aside {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
@@ -16,18 +16,17 @@
   width: 40%;
   color: #ffe9ff;
 }
-#container_username {
-  width: 15rem;
-  height: 2rem;
-  text-align: center;
-}
-#subtitle {
+.subtitle {
   font-size: 15px;
   color: #ffe9ff;
   margin-bottom: 20px;
 }
-.username {
-  width: 65%;
+.container_username {
+  width: 15rem;
+  height: 2rem;
+  text-align: center;
+}
+#username {
   height: 2rem;
   font-size: 1rem;
   text-align: center;
@@ -38,18 +37,61 @@
 #button_username {
   width: 36px;
   height: 34px;
-}
-.valid-mask {
-  display: flex;
-  flex-direction: column;
-}
-#button_send {
-  font-size: 20px;
-  font-weight: bold;
-  background: #b3abe9;
-  border-radius: 10px;
-  border-style: outset;
   cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+}
+.main-box-numbers {
+  font-size: 25px;
+  background-color: rgb(8, 215, 163);
+  background: linear-gradient(
+    128deg,
+    rgba(8, 215, 163, 1) 0%,
+    rgba(79, 156, 200, 1) 50%,
+    rgba(131, 110, 214, 1) 100%
+  );
+  width: 60%;
+  height: 85%;
+  border-radius: 30px;
+}
+.section-chip {
+  margin: 5px auto 2px 12px;
+  height: 20%;
+}
+.img-chip {
+  width: 50px;
+  height: 48px;
+  background: none;
+}
+.section-validation {
+  height: 60%;
+  text-align: center;
+
+}
+#cardNumber {
+  font-size: 23px;
+  border: none;
+  background: transparent;
+  border-color: none;
+  margin: 20px auto;
+}
+#cardNumber :hover {
+  border: 1px solid #3c3c44;
+}
+#button-send{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  border-color: transparent;
+}
+.img-send {
+  width: 30px;
+  height: 27px;
+  background: none;
+}
+#cover-numbers{
+  margin: 10px 0;
 }
 .valid {
   color: #4adb82;
@@ -63,49 +105,14 @@
   background: transparent;
   border-color: none;
 }
-.box-numbers {
-  font-size: 25px;
-  text-align: center;
-  /* background: rgba(217, 217, 217, 0.05);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(2.2px);
-  -webkit-backdrop-filter: blur(2.2px); */
-  background: rgb(8, 215, 163);
-  background: linear-gradient(
-    128deg,
-    rgba(8, 215, 163, 1) 0%,
-    rgba(79, 156, 200, 1) 50%,
-    rgba(131, 110, 214, 1) 100%
-  );
-  width: 500px;
-  height: 220px;
-  border-radius: 30px;
-}
-.img-chip {
-  width: 50px;
-  height: 48px;
-  background: none;
-  margin-left: -110px;
-  margin-top: 12px;
-}
-.img-send {
-  width: 31px;
-  height: 28px;
-  background: none;
-}
-#cardNumber :hover {
-  border: 1px solid #3c3c44;
-}
-#cardNumber {
-  font-size: 23px;
-  border: none;
-  background: transparent;
-  border-color: none;
+.section-footer-card {
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  padding: 2px 10px;
 }
 .img-mastercard {
   width: 65px;
   height: 40px;
   background: none;
-  margin-top: 100px;
-  margin-left: 390px;
 }
