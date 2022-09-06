@@ -2,10 +2,10 @@
 
 ## Índice
 
-* [1. Preámbulo]
-* [2. Prototipo]
-* [3. Objetivos de aprendizaje]
-* [4. Proyecto]
+**1. Preámbulo**
+**2. Prototipo**
+**3. Objetivos de aprendizaje**
+**4. Proyecto**
 ***
 
 ## 1. Preámbulo
