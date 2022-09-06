@@ -18,9 +18,6 @@ function getNumber() {
     validAlert.classList.add("invalid");
     document.getElementById("cover-numbers").innerHTML = maskify;
   }
-
-  // document.getElementById("cardNumber").innerHTML =
-  //   validator.maskify(boxNumbers);
 }
 
 const userNameImpress = document.getElementById("user_name");
@@ -29,4 +26,5 @@ const userName = document.getElementById("username");
 
 buttonUserName.addEventListener("click", () => {
   userNameImpress.innerHTML = userName.value;
+  userName.reset();
 });
