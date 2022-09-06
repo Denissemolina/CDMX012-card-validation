@@ -179,6 +179,28 @@
     background-color: transparent;
     display: flex;
     justify-content: space-between;
-
+  }
+}
+@media (max-width: 450px) {
+  .container_username {
+    text-align: center;
+    width: 80%;
+  }
+  .main-card {
+    font-size: 20px;
+    width: 82%;
+  }
+  #cardNumber {
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    border-color: none;
+    margin: 20px auto;
+  }
+  .section-validation {
+    height: 55%;
+    width: 100%;
+    text-align: center;
+    background-color: transparent;
   }
 }
