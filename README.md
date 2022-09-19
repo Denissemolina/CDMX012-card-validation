@@ -1,13 +1,12 @@
 # Tarjeta de crédito válida
 
 ## Índice
-
-** 1. Preámbulo**
-** 2. Prototipo**
-** 3. Objetivos de aprendizaje**
-** 4. Proyecto**
-***
-
+```
+1. Preámbulo
+2. Prototipo
+3. Objetivos de aprendizaje
+4. Proyecto
+```
 ## 1. Preámbulo
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
