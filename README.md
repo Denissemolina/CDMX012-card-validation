@@ -1,12 +1,12 @@
 # Tarjeta de crédito válida
 
 ## Índice
-
-* [1. Preámbulo](#1-preámbulo)
-* [2. Prototipo](#2-prototipo)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Proyecto](#4-proyecto-final)
-***
+```
+1. Preámbulo
+2. Prototipo
+3. Objetivos de aprendizaje
+4. Proyecto
+```
 
 ## 1. Preámbulo
 
@@ -70,8 +70,4 @@ La interfaz permite al usuario:
 - :woman_technologist: Ocultar todos los dígitos de su número de tarjeta menos los últimos 4 caracteres.
 
 ## 4. Proyecto
-
 ![proyecto final](./src/assets/prototipo-card.JPG)
-
-
-
