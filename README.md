@@ -7,6 +7,7 @@
 3. Objetivos de aprendizaje
 4. Proyecto
 ```
+
 ## 1. Preámbulo
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
@@ -69,5 +70,4 @@ La interfaz permite al usuario:
 - :woman_technologist: Ocultar todos los dígitos de su número de tarjeta menos los últimos 4 caracteres.
 
 ## 4. Proyecto
-
 ![proyecto final](./src/assets/prototipo-card.JPG)
